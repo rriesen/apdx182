@@ -1,2 +1,2 @@
 # apdx182
-Artifacts for SC paper pap332
+We use this github repo to collect artifacts for our SC paper pap332
