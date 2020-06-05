@@ -25,13 +25,16 @@ Intel icc (ICC) 19.0.1.144 20181018
 
 Applications and versions
 -------------------------
-GeoFEM versions sol1, sol7i
+GeoFEM versions sol1, sol7i (not open sourced)
 
 Libraries and versions
 ----------------------
 Intel MPI 2018.3.222 (without progress  threads). Intel MPI
 2019.1.144 release_mt (with progress threads). Hook pthread_create
-and control thread placement to emulate UTI library binding behavior
+and control thread placement using the following UTI library impl:
+
+https://github.com/bgerofi/utility_thread_library/commit/071c476102422f34062616d52ebc8f741390756c
+
 
 Key algorithms
 --------------
@@ -44,6 +47,6 @@ Input datasets and versions
 N/A
 
 
-
 Running the experiments
 =======================
+See the linux-uti.sh job script in the artifacts git repository.
